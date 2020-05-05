@@ -15,6 +15,7 @@ def init_message():
     for i in range(10):
         message[i] = ""
 
+# メッセージをセットする関数
 def set_message(msg):
     for i in range(10):
         if message[i] == "":
